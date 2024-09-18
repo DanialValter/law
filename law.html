@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адвокатское бюро Рога и Копыта</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .lawyers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .lawyer-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .lawyer-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .lawyer-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .lawyer-phone {
+            font-size: 18px;
+            color: #3498db;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Адвокатское бюро Рога и Копыта</h1>
+        <p>Юридические услуги высокого качества</p>
+    </header>
+
+    <div class="container">
+        <div class="lawyers">
+            <div class="lawyer-card">
+                <div class="lawyer-name">Имя адвоката</div>
+                <div class="lawyer-phone">Телефон: 888-888-8888</div>
+            </div>
+            <div class="lawyer-card">
+                <div class="lawyer-name">Имя адвоката</div>
+                <div class="lawyer-phone">Телефон: 888-888-8888</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Адвокатское бюро Рога и Копыта</p>
+        <p>Контактный телефон: 888-888-8888</p>
+    </footer>
+
+</body>
+</html>
